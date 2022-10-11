@@ -15645,3 +15645,36 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	}
 
 }
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.button-color {
+	background-color: var(--color-blue);
+	color: white !important;
+}
+
+.button-color:hover {
+	background-color: #172b6ecb;
+	color: white !important;
+}
+
+.activeDos {
+	background-color: #172b6ecb;
+	color: white !important;
+}
+
+@media screen and (max-width: 768px) 
+{
+	.btn-group, .btn-group-vertical {
+		position: relative;
+		display: inline-flex;
+		vertical-align: middle;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+}
